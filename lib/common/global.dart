@@ -3,6 +3,7 @@ import '../models/profile.dart';
 import '../models/cacheConfig.dart';
 import 'dart:convert';
 import '../service/cache.dart';
+import '../service/request.dart';
 
 class Global {
   static SharedPreferences _prefs;
@@ -23,6 +24,7 @@ class Global {
       ..enable = true
       ..maxCount = 100
       ..maxAge = 3600;
+    Request.init();
   }
 
   static saveProfile() =>
