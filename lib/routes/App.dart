@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import './HomePage.dart';
+import './CollectListPage.dart';
+import './OrserListPage.dart';
+import './PersonalCenter.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -11,10 +15,10 @@ class MyApp extends StatelessWidget {
       ),
       // 路由表
       routes: {
-        '/': (context) => Text('首页'),
-        'personalCenter': (context) => Text('我的'),
-        'orderListPage': (context) => Text('预约'),
-        'collectListPage': (context) => Text('收藏'),
+        '/': (context) => HomePage(title: '首页'),
+        'personalCenter': (context) => PersonalCenter(title: '我的'),
+        'orderListPage': (context) => OrserListPage(title: '预约'),
+        'collectListPage': (context) => CollectListPage(title: '收藏'),
       },
       initialRoute: '/',
     );
