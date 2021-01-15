@@ -106,6 +106,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.4"
+  city_pickers:
+    dependency: "direct main"
+    description:
+      name: city_pickers
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.1.30"
   clock:
     dependency: transitive
     description:
@@ -317,6 +324,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.11.4"
+  lpinyin:
+    dependency: transitive
+    description:
+      name: lpinyin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.0"
   matcher:
     dependency: transitive
     description:
@@ -450,6 +464,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.5"
+  redux:
+    dependency: "direct main"
+    description:
+      name: redux
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.0.0+3"
   shared_preferences:
     dependency: "direct main"
     description:

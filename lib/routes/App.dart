@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
         // 主要色调
         primaryColor: Colors.white,
       ),
+      debugShowCheckedModeBanner: false,
       // 路由表
       routes: {
         '/': (context) => HomePage(title: '首页'),
