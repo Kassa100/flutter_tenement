@@ -24,7 +24,7 @@ class Request {
   Options _options;
   static Dio dio = new Dio(
     BaseOptions(
-      baseUrl: 'http://101.201.235.230:3000/',
+      baseUrl: 'http://192.168.2.127:8080/',
       // headers: {
       //   HttpHeaders.acceptHeader:
       //       'application/vnd.github.squirrel-girl-preview,'
@@ -36,16 +36,16 @@ class Request {
     dio.interceptors.add(Global.netCache);
     dio.options.headers[HttpHeaders.authorizationHeader] = Global.profile.token;
 
-    if (!Global.isRelease) {
-      (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
-          (client) {
-        client.findProxy = (uri) {
-          return 'PROXY 192.168.0.117:8888';
-        };
-        client.badCertificateCallback =
-            (X509Certificate cert, String host, int port) => true;
-      };
-    }
+    // if (!Global.isRelease) {
+    //   (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
+    //       (client) {
+    //     client.findProxy = (uri) {
+    //       return 'PROXY 192.168.2.127:8080';
+    //     };
+    //     client.badCertificateCallback =
+    //         (X509Certificate cert, String host, int port) => true;
+    //   };
+    // }
   }
 
   // 首页数据获取

@@ -1,72 +1,72 @@
 {
-    "banner": "http://192.168.0.117:3000/images/index/assets/zf_banner.jpg",
-    "banner_text": "http://192.168.0.117:3000/images/index/assets/banner-text.png",
+    "banner": "http://192.168.2.127:8080/images/index/assets/zf_banner.jpg",
+    "banner_text": "http://192.168.2.127:8080/images/index/assets/banner-text.png",
     "icons": [
         {
             "text": "租房",
-            "icon": "http://192.168.0.117:3000/images/index/common/01.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/01.png",
             "search": ""
         },
         {
             "text": "品牌公寓",
-            "icon": "http://192.168.0.117:3000/images/index/common/02.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/02.png",
             "search": "brand"
         },
         {
             "text": "低预算",
-            "icon": "http://192.168.0.117:3000/images/index/common/03.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/03.png",
             "search": "low_budget"
         },
         {
             "text": "近地铁",
-            "icon": "http://192.168.0.117:3000/images/index/common/04.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/04.png",
             "search": "near_subway"
         },
         {
             "text": "无中介费",
-            "icon": "http://192.168.0.117:3000/images/index/common/05.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/05.png",
             "search": "no_pay"
         },
         {
             "text": "整租",
-            "icon": "http://192.168.0.117:3000/images/index/common/06.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/06.png",
             "search": "entire_tenancy"
         },
         {
             "text": "合租",
-            "icon": "http://192.168.0.117:3000/images/index/common/07.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/07.png",
             "search": "joint_rent"
         },
         {
             "text": "电梯房",
-            "icon": "http://192.168.0.117:3000/images/index/common/08.png",
+            "icon": "http://192.168.2.127:8080/images/index/common/08.png",
             "search": "only_reason"
         }
     ],
     "region": [
         {
             "text": "南山",
-            "icon": "http://192.168.0.117:3000/images/index/region/17.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/17.jpg"
         },
         {
             "text": "福田",
-            "icon": "http://192.168.0.117:3000/images/index/region/18.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/18.jpg"
         },
         {
             "text": "龙华",
-            "icon": "http://192.168.0.117:3000/images/index/region/19.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/19.jpg"
         },
         {
             "text": "龙岗",
-            "icon": "http://192.168.0.117:3000/images/index/region/20.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/20.jpg"
         },
         {
             "text": "宝安",
-            "icon": "http://192.168.0.117:3000/images/index/region/21.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/21.jpg"
         },
         {
             "text": "罗湖",
-            "icon": "http://192.168.0.117:3000/images/index/region/22.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/region/22.jpg"
         }
     ],
     "apart": [
@@ -112,56 +112,56 @@
             "display_id": "L06652",
             "property_url": "https://m.zufun.cn/sz/property/6652/",
             "subway_info": "距晒布地铁站282米",
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/e1a/b84/0a0/medium/240162.JPG",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/e1a/b84/0a0/medium/240162.JPG",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600579.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600579.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600578.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600578.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600580.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600580.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600581.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600581.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600582.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600582.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600583.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600583.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600584.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600584.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600585.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600585.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600586.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600586.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600587.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600587.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600588.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600588.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f5a/eec/bff/max/600589.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f5a/eec/bff/max/600589.jpg"
                     }
                 ],
                 "title": "茧栈公寓",
@@ -224,72 +224,72 @@
                         "title": "麒邻（KeyLink）公寓",
                         "addr": "整租一居-32m²",
                         "price": "￥3000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/2c3/5ae/e2e/medium/173875.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/2c3/5ae/e2e/medium/173875.jpeg"
                     },
                     {
                         "id": "86656",
                         "title": "彩天名苑",
                         "addr": "整租一居-52m²",
                         "price": "￥3800",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/717/7ee/cf9/medium/610292.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/717/7ee/cf9/medium/610292.jpg"
                     },
                     {
                         "id": "86671",
                         "title": "星河世纪",
                         "addr": "整租一居-44m²",
                         "price": "￥5100",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/57b/528/0ca/medium/610403.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/57b/528/0ca/medium/610403.jpg"
                     },
                     {
                         "id": "78514",
                         "title": "宅幸福公寓（银都店）",
                         "addr": "整租一居-30m²",
                         "price": "￥3900",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/601/255/c5c/medium/554788.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/601/255/c5c/medium/554788.jpg"
                     },
                     {
                         "id": "61389",
                         "title": "魔方公寓联合广场店",
                         "addr": "整租一居-25m²",
                         "price": "￥4980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/2f9/e0d/955/medium/433667.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/2f9/e0d/955/medium/433667.jpg"
                     },
                     {
                         "id": "79087",
                         "title": "居无忧公寓布吉一店",
                         "addr": "整租一居-28m²",
                         "price": "￥1580",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/a63/fab/4b9/medium/558567.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/a63/fab/4b9/medium/558567.jpg"
                     },
                     {
                         "id": "78828",
                         "title": "宅幸福公寓东门店",
                         "addr": "整租一居-35m²",
                         "price": "￥4100",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/b39/690/762/medium/556834.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/b39/690/762/medium/556834.jpg"
                     },
                     {
                         "id": "85108",
                         "title": "红围坊公寓",
                         "addr": "整租一居-15m²",
                         "price": "￥1600",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/205/9fc/a30/medium/599348.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/205/9fc/a30/medium/599348.jpg"
                     },
                     {
                         "id": "80316",
                         "title": "魔方公寓国贸店",
                         "addr": "整租一居-30m²",
                         "price": "￥3000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e7c/39f/aac/medium/441507.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e7c/39f/aac/medium/441507.jpg"
                     }
                 ]
             }
@@ -336,36 +336,36 @@
             "display_id": "L13647",
             "property_url": "https://m.zufun.cn/sz/property/13647/",
             "subway_info": "距西丽地铁站596米",
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/d8b/02a/85f/medium/596394.jpg",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/d8b/02a/85f/medium/596394.jpg",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596553.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596553.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596551.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596551.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596552.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596552.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596554.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596554.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596555.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596555.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596556.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596556.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/8c9/e24/f0e/max/596557.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/8c9/e24/f0e/max/596557.jpg"
                     }
                 ],
                 "title": "丽姿公寓",
@@ -428,72 +428,72 @@
                         "title": "妮家公寓",
                         "addr": "整租一居-28m²",
                         "price": "￥2080",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/b07/0e8/1e6/medium/545261.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/b07/0e8/1e6/medium/545261.jpg"
                     },
                     {
                         "id": "83199",
                         "title": "TANK公寓",
                         "addr": "整租一居-35m²",
                         "price": "￥2400",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/bf2/846/5ba/medium/586434.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/bf2/846/5ba/medium/586434.jpg"
                     },
                     {
                         "id": "76260",
                         "title": "怡华新村",
                         "addr": "整租一居-50m²",
                         "price": "￥3300",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e1c/f09/260/medium/539696.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e1c/f09/260/medium/539696.jpg"
                     },
                     {
                         "id": "79461",
                         "title": "41区68栋公寓",
                         "addr": "整租一居-40m²",
                         "price": "￥3580",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/87d/4ad/de7/medium/560846.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/87d/4ad/de7/medium/560846.jpg"
                     },
                     {
                         "id": "76113",
                         "title": "安乐村",
                         "addr": "整租一居-45m²",
                         "price": "￥2980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/12a/4c7/221/medium/538836.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/12a/4c7/221/medium/538836.jpg"
                     },
                     {
                         "id": "79007",
                         "title": "桂苑",
                         "addr": "合租四居-9m²",
                         "price": "￥2600",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/37b/1aa/a93/medium/557993.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/37b/1aa/a93/medium/557993.jpg"
                     },
                     {
                         "id": "77920",
                         "title": "水囗花园灵芝地铁站",
                         "addr": "整租一居-30m²",
                         "price": "￥2000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/a6d/2a4/8f0/medium/550993.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/a6d/2a4/8f0/medium/550993.jpg"
                     },
                     {
                         "id": "77725",
                         "title": "城家公寓深圳留仙洞店",
                         "addr": "整租一居-25m²",
                         "price": "￥2800",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/c05/4b6/38f/medium/549853.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/c05/4b6/38f/medium/549853.jpg"
                     },
                     {
                         "id": "83323",
                         "title": "41区安乐公寓",
                         "addr": "整租一居-28m²",
                         "price": "￥1880",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/134/37a/03f/medium/587251.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/134/37a/03f/medium/587251.jpg"
                     }
                 ]
             }
@@ -540,44 +540,44 @@
             "display_id": "L13386",
             "property_url": "https://m.zufun.cn/sz/property/13386/",
             "subway_info": "距五和地铁站126米",
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/c88/381/da8/medium/583063.jpg",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/c88/381/da8/medium/583063.jpg",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584061.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584061.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584062.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584062.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584063.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584063.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584064.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584064.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584065.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584065.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584066.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584066.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584067.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584067.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584068.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584068.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4cd/8ae/1ee/max/584069.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4cd/8ae/1ee/max/584069.jpg"
                     }
                 ],
                 "title": "合景昕舍五和地铁站店",
@@ -640,72 +640,72 @@
                         "title": "碧家国际社区白石龙地铁站二店",
                         "addr": "整租二居-35m²",
                         "price": "￥2580",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f7e/0f1/4d1/medium/553428.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f7e/0f1/4d1/medium/553428.jpg"
                     },
                     {
                         "id": "82856",
                         "title": "合景昕舍五和地铁站店",
                         "addr": "整租二居-50m²",
                         "price": "￥3000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/863/5d3/70c/medium/584079.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/863/5d3/70c/medium/584079.jpg"
                     },
                     {
                         "id": "86713",
                         "title": "美丽365花园",
                         "addr": "整租二居-80m²",
                         "price": "￥3200",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/4b0/0c4/a06/medium/610717.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/4b0/0c4/a06/medium/610717.jpg"
                     },
                     {
                         "id": "75740",
                         "title": "碧桂园五和地铁站店",
                         "addr": "整租二居-35m²",
                         "price": "￥2400",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/a84/30b/206/medium/536156.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/a84/30b/206/medium/536156.jpg"
                     },
                     {
                         "id": "58051",
                         "title": "鑫茂公寓",
                         "addr": "整租二居-66m²",
                         "price": "￥5880",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/ae1/f02/f73/medium/408448.JPG"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/ae1/f02/f73/medium/408448.JPG"
                     },
                     {
                         "id": "83213",
                         "title": "合景昕舍民治地铁站店",
                         "addr": "整租二居-45m²",
                         "price": "￥3000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e65/3ca/0b5/medium/586535.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e65/3ca/0b5/medium/586535.jpg"
                     },
                     {
                         "id": "79370",
                         "title": "合景昕舍坂田店",
                         "addr": "整租二居-60m²",
                         "price": "￥5500",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/085/f92/6d9/medium/560364.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/085/f92/6d9/medium/560364.jpg"
                     },
                     {
                         "id": "28917",
                         "title": "金地草莓社区优城店",
                         "addr": "整租二居-45m²",
                         "price": "￥2800",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/6f5/0a5/cb2/medium/221540.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/6f5/0a5/cb2/medium/221540.jpg"
                     },
                     {
                         "id": "77314",
                         "title": "碧桂园阳光苑小区花园店",
                         "addr": "整租二居-98m²",
                         "price": "￥4000",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/b4a/f20/d5b/medium/546963.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/b4a/f20/d5b/medium/546963.jpg"
                     }
                 ]
             }
@@ -751,36 +751,36 @@
             "ppt_certi_info": "公寓直租",
             "display_id": "L13390",
             "property_url": "https://m.zufun.cn/sz/property/13390/",
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/2bb/c1c/c8f/medium/583112.jpg",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/2bb/c1c/c8f/medium/583112.jpg",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584083.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584083.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584084.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584084.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584085.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584085.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584086.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584086.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584087.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584087.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584088.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584088.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/519/82e/13c/max/584089.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/519/82e/13c/max/584089.jpg"
                     }
                 ],
                 "title": "合景昕舍罗湖水库店",
@@ -843,72 +843,72 @@
                         "title": "碧家国际社区塘坑地铁站店",
                         "addr": "整租一居-40m²",
                         "price": "￥1450",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d87/79a/081/medium/473376.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d87/79a/081/medium/473376.jpg"
                     },
                     {
                         "id": "83214",
                         "title": "合景昕舍塘坑地铁站店",
                         "addr": "整租一居-12m²",
                         "price": "￥2180",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f21/a64/77b/medium/610671.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f21/a64/77b/medium/610671.jpg"
                     },
                     {
                         "id": "74383",
                         "title": "爱守候公寓（横岗U谷店）",
                         "addr": "合租五居-11m²",
                         "price": "￥880",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/28d/8cc/41b/medium/526751.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/28d/8cc/41b/medium/526751.jpg"
                     },
                     {
                         "id": "79087",
                         "title": "居无忧公寓布吉一店",
                         "addr": "整租一居-28m²",
                         "price": "￥1580",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/a63/fab/4b9/medium/558567.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/a63/fab/4b9/medium/558567.jpg"
                     },
                     {
                         "id": "62206",
                         "title": "粤鹏湾公寓丽湖店",
                         "addr": "整租一居-12m²",
                         "price": "￥1200",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/361/e9c/efd/medium/439032.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/361/e9c/efd/medium/439032.jpeg"
                     },
                     {
                         "id": "73327",
                         "title": "碧家国际社区深圳大芬店",
                         "addr": "整租一居-39m²",
                         "price": "￥2200",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/bae/f9f/7c7/medium/518879.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/bae/f9f/7c7/medium/518879.jpg"
                     },
                     {
                         "id": "79088",
                         "title": "居无忧公寓布吉二店",
                         "addr": "整租一居-16m²",
                         "price": "￥1280",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/41c/a1e/a04/medium/558574.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/41c/a1e/a04/medium/558574.jpg"
                     },
                     {
                         "id": "75971",
                         "title": "宅幸福公寓水贝店",
                         "addr": "整租一居-35m²",
                         "price": "￥3680",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/21e/a26/185/medium/537816.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/21e/a26/185/medium/537816.jpg"
                     },
                     {
                         "id": "79371",
                         "title": "合景陆舍六约店",
                         "addr": "整租一居-18m²",
                         "price": "￥1300",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e2f/611/fc2/medium/560367.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e2f/611/fc2/medium/560367.jpg"
                     }
                 ]
             }
@@ -954,32 +954,32 @@
             "ppt_certi_info": "公寓直租",
             "display_id": "L11504",
             "property_url": "https://m.zufun.cn/sz/property/11504/",
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/0fc/780/bb0/medium/530232.jpg",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/0fc/780/bb0/medium/530232.jpg",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592059.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592059.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592060.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592060.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592061.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592061.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592062.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592062.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592063.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592063.jpg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/d97/852/1d0/max/592064.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/d97/852/1d0/max/592064.jpg"
                     }
                 ],
                 "title": "趣客公寓海雅缤纷城店",
@@ -1042,72 +1042,72 @@
                         "title": "妮家公寓",
                         "addr": "整租一居-28m²",
                         "price": "￥2080",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/b07/0e8/1e6/medium/545261.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/b07/0e8/1e6/medium/545261.jpg"
                     },
                     {
                         "id": "83199",
                         "title": "TANK公寓",
                         "addr": "整租一居-35m²",
                         "price": "￥2400",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/bf2/846/5ba/medium/586434.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/bf2/846/5ba/medium/586434.jpg"
                     },
                     {
                         "id": "72398",
                         "title": "非谷公寓（坪洲店）",
                         "addr": "整租一居-25m²",
                         "price": "￥1980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/c59/caa/3f7/medium/511678.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/c59/caa/3f7/medium/511678.jpg"
                     },
                     {
                         "id": "82169",
                         "title": "坪洲轻铁西",
                         "addr": "整租一居-25m²",
                         "price": "￥2180",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/ee6/fb1/c7e/medium/579249.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/ee6/fb1/c7e/medium/579249.jpg"
                     },
                     {
                         "id": "76260",
                         "title": "怡华新村",
                         "addr": "整租一居-50m²",
                         "price": "￥3300",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e1c/f09/260/medium/539696.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e1c/f09/260/medium/539696.jpg"
                     },
                     {
                         "id": "74147",
                         "title": "缤致infun宝安大道",
                         "addr": "整租一居-24m²",
                         "price": "￥1980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/c61/3df/449/medium/566686.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/c61/3df/449/medium/566686.jpg"
                     },
                     {
                         "id": "79461",
                         "title": "41区68栋公寓",
                         "addr": "整租一居-40m²",
                         "price": "￥3580",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/87d/4ad/de7/medium/560846.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/87d/4ad/de7/medium/560846.jpg"
                     },
                     {
                         "id": "76113",
                         "title": "安乐村",
                         "addr": "整租一居-45m²",
                         "price": "￥2980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/12a/4c7/221/medium/538836.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/12a/4c7/221/medium/538836.jpg"
                     },
                     {
                         "id": "79177",
                         "title": "群贤花园",
                         "addr": "合租四居-12m²",
                         "price": "￥1324",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/e3d/d93/f64/medium/559174.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/e3d/d93/f64/medium/559174.jpg"
                     }
                 ]
             }
@@ -1155,40 +1155,40 @@
             "property_url": "https://m.zufun.cn/sz/apt/85812",
             "subway_info": "距五和地铁站179米",
             "no_follow": true,
-            "ppt_file_url": "http://192.168.0.117:3000/images/uploads/uptown/f79/9c7/725/medium/604238.jpg",
+            "ppt_file_url": "http://192.168.2.127:8080/images/uploads/uptown/f79/9c7/725/medium/604238.jpg",
             "detail": {
                 "banner": [
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604239.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604239.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604240.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604240.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604241.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604241.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604242.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604242.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604243.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604243.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604244.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604244.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604245.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604245.jpeg"
                     },
                     {
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/33c/b3b/25f/max/604246.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/33c/b3b/25f/max/604246.jpeg"
                     }
                 ],
                 "title": "和寓公寓",
@@ -1251,72 +1251,72 @@
                         "title": "东华明珠园",
                         "addr": "单间-8m²",
                         "price": "￥999",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/ee8/dd2/177/medium/502221.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/ee8/dd2/177/medium/502221.jpg"
                     },
                     {
                         "id": "59922",
                         "title": "粤鹏湾扬马公寓",
                         "addr": "整租一居-16m²",
                         "price": "￥1100",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/91a/b82/a78/medium/422780.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/91a/b82/a78/medium/422780.jpeg"
                     },
                     {
                         "id": "79454",
                         "title": "大航国际酒店公寓",
                         "addr": "整租一居-15m²",
                         "price": "￥1700",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/b65/da9/0cd/medium/560810.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/b65/da9/0cd/medium/560810.jpg"
                     },
                     {
                         "id": "59921",
                         "title": "粤鹏湾黄金山公寓",
                         "addr": "整租一居-10m²",
                         "price": "￥800",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/1e1/b97/69d/medium/422774.jpeg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/1e1/b97/69d/medium/422774.jpeg"
                     },
                     {
                         "id": "70915",
                         "title": "碧家国际社区白石龙地铁站二店",
                         "addr": "整租一居-40m²",
                         "price": "￥1980",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/01e/387/721/medium/500501.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/01e/387/721/medium/500501.jpg"
                     },
                     {
                         "id": "67778",
                         "title": "碧家国际社区白石龙地铁站店",
                         "addr": "整租一居-40m²",
                         "price": "￥2150",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/c22/0db/9e0/medium/476931.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/c22/0db/9e0/medium/476931.jpg"
                     },
                     {
                         "id": "67270",
                         "title": "碧家国际社区坂田店",
                         "addr": "整租一居-40m²",
                         "price": "￥2390",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/883/296/931/medium/473162.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/883/296/931/medium/473162.jpg"
                     },
                     {
                         "id": "83233",
                         "title": "合景昕舍五和地铁站店",
                         "addr": "整租一居-30m²",
                         "price": "￥1880",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/3ba/d48/cdf/medium/586606.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/3ba/d48/cdf/medium/586606.jpg"
                     },
                     {
                         "id": "64207",
                         "title": "南坑老村二巷1号",
                         "addr": "整租一居-20m²",
                         "price": "￥800",
-                        "minImage": "http://192.168.0.117:3000/images/assets/img/grey.jpg",
-                        "maxImage": "http://192.168.0.117:3000/images/uploads/apart/f19/fa2/f7c/medium/451937.jpg"
+                        "minImage": "http://192.168.2.127:8080/images/assets/img/grey.jpg",
+                        "maxImage": "http://192.168.2.127:8080/images/uploads/apart/f19/fa2/f7c/medium/451937.jpg"
                     }
                 ]
             }
@@ -1325,55 +1325,55 @@
     "flats": [
         {
             "text": "梦想社区",
-            "icon": "http://192.168.0.117:3000/images/index/flats/8.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/8.jpg"
         },
         {
             "text": "居无忧",
-            "icon": "http://192.168.0.117:3000/images/index/flats/10.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/10.jpg"
         },
         {
             "text": "优优公寓",
-            "icon": "http://192.168.0.117:3000/images/index/flats/12.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/12.jpg"
         },
         {
             "text": "好时光",
-            "icon": "http://192.168.0.117:3000/images/index/flats/13.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/13.jpg"
         },
         {
             "text": "魔方公寓",
-            "icon": "http://192.168.0.117:3000/images/index/flats/14.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/14.jpg"
         },
         {
             "text": "米兰青年",
-            "icon": "http://192.168.0.117:3000/images/index/flats/23.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/23.jpg"
         },
         {
             "text": "诚鑫公寓",
-            "icon": "http://192.168.0.117:3000/images/index/flats/25.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/25.jpg"
         },
         {
             "text": "碧家国际",
-            "icon": "http://192.168.0.117:3000/images/index/flats/26.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/26.jpg"
         },
         {
             "text": "格林兰德",
-            "icon": "http://192.168.0.117:3000/images/index/flats/27.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/27.jpg"
         },
         {
             "text": "栀子公寓",
-            "icon": "http://192.168.0.117:3000/images/index/flats/31.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/31.jpg"
         },
         {
             "text": "青年社区",
-            "icon": "http://192.168.0.117:3000/images/index/flats/32.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/32.jpg"
         },
         {
             "text": "为鲜社区",
-            "icon": "http://192.168.0.117:3000/images/index/flats/59.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/59.jpg"
         },
         {
             "text": "我家自在",
-            "icon": "http://192.168.0.117:3000/images/index/flats/63.jpg"
+            "icon": "http://192.168.2.127:8080/images/index/flats/63.jpg"
         }
     ]
 }
