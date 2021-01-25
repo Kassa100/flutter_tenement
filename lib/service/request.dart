@@ -24,7 +24,7 @@ class Request {
   Options _options;
   static Dio dio = new Dio(
     BaseOptions(
-      baseUrl: 'http://192.168.2.127:8080/',
+      baseUrl: 'http://152.136.254.206:3000/',
       // headers: {
       //   HttpHeaders.acceptHeader:
       //       'application/vnd.github.squirrel-girl-preview,'
@@ -40,7 +40,7 @@ class Request {
     //   (dio.httpClientAdapter as DefaultHttpClientAdapter).onHttpClientCreate =
     //       (client) {
     //     client.findProxy = (uri) {
-    //       return 'PROXY 192.168.2.127:8080';
+    //       return 'PROXY 192.168.2.127:8888';
     //     };
     //     client.badCertificateCallback =
     //         (X509Certificate cert, String host, int port) => true;

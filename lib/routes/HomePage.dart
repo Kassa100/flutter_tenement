@@ -6,6 +6,7 @@ import '../common/store.dart' as BaseStore;
 import '../models/home.dart';
 import '../service/request.dart';
 import '../common/loading.dart';
+import '../widgets/ImageWidget.dart';
 
 class City {
   City(this.cityId, this.cityName);
@@ -27,7 +28,6 @@ class HomePageState extends State<HomePage> {
   Home data = null; //数据变量
   void _getData(context) async {
     // 结合service做数据请求
-    print('请求+1');
     Home _data = await Request(context).getHome();
     print(_data);
     setState(() {
@@ -39,7 +39,6 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (data == null) {
       // 初次数据请求
-      print('首次请求');
       _getData((context));
     }
     // store 初始化配置
@@ -120,7 +119,7 @@ class HomePageState extends State<HomePage> {
             IconButton(
               icon: Icon(Icons.search),
               onPressed: () {
-                print('点击查询');
+                Navigator.pushNamed(context, 'projectList');
               },
             )
           ],
@@ -137,6 +136,7 @@ class HomePageState extends State<HomePage> {
                     // 整体的垂直布局
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
+                      // Banner 模块
                       DecoratedBox(
                         decoration: BoxDecoration(
                           image: DecorationImage(
@@ -160,14 +160,20 @@ class HomePageState extends State<HomePage> {
                                       color: Color.fromARGB(180, 255, 255, 255),
                                       borderRadius: BorderRadius.circular(15.0),
                                     ),
-                                    child: Container(
-                                      width: 300.0,
-                                      height: 25.0,
-                                      padding: EdgeInsets.only(top: 10),
-                                      alignment: Alignment.centerLeft,
-                                      child: Icon(
-                                        Icons.search,
-                                        size: 16,
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        Navigator.pushNamed(
+                                            context, 'projectList');
+                                      },
+                                      child: Container(
+                                        width: 300.0,
+                                        height: 25.0,
+                                        padding: EdgeInsets.only(left: 10),
+                                        alignment: Alignment.centerLeft,
+                                        child: Icon(
+                                          Icons.search,
+                                          size: 16,
+                                        ),
                                       ),
                                     ),
                                   ),
@@ -188,7 +194,291 @@ class HomePageState extends State<HomePage> {
                                 ),
                               ],
                             )),
-                      )
+                      ),
+                      // 分类模块
+                      Container(
+                        color: Colors.white,
+                        width: double.infinity,
+                        padding: EdgeInsets.symmetric(vertical: 20.0),
+                        alignment: Alignment.center,
+                        child: Wrap(
+                          spacing: 30.0, //主轴方向的边距
+                          runSpacing: 6.0, //纵轴方向的间距
+                          alignment: WrapAlignment.start,
+                          children: data.icons.map((i) {
+                            return GestureDetector(
+                              child: Column(
+                                children: [
+                                  ClipOval(
+                                    child: ImageWidget(
+                                      url: i['icon'],
+                                      w: 50.0,
+                                      h: 50.0,
+                                      fit: BoxFit.fill,
+                                    ),
+                                  ),
+                                  Text(i['text']),
+                                ],
+                              ),
+                              onTap: () {
+                                Navigator.pushNamed(
+                                  context,
+                                  'projectList',
+                                  arguments: {i['search']: true},
+                                );
+                              },
+                            );
+                          }).toList(),
+                        ),
+                      ),
+                      // 地区模块
+                      Container(
+                        margin: EdgeInsets.symmetric(vertical: 9.0),
+                        color: Colors.white,
+                        width: double.infinity,
+                        padding: EdgeInsets.symmetric(vertical: 12.0),
+                        child: SingleChildScrollView(
+                          scrollDirection: Axis.horizontal,
+                          child: Row(
+                            children: data.region.map((i) {
+                              return GestureDetector(
+                                onTap: () {
+                                  Navigator.pushNamed(
+                                    context,
+                                    'projectList',
+                                    arguments: {'cur_region': i['text']},
+                                  );
+                                },
+                                child: Container(
+                                  width: 86,
+                                  height: 76,
+                                  margin: EdgeInsets.symmetric(horizontal: 8.0),
+                                  child: Stack(
+                                    fit: StackFit.expand,
+                                    children: [
+                                      ImageWidget(
+                                        url: i['icon'],
+                                        w: 86,
+                                        h: 76,
+                                        fit: BoxFit.fill,
+                                      ),
+                                      Center(
+                                        child: Text(
+                                          i['text'],
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                          ),
+                                        ),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              );
+                            }).toList(),
+                          ),
+                        ),
+                      ),
+                      // 猜你喜欢
+                      Container(
+                        margin: EdgeInsets.symmetric(vertical: 9.0),
+                        color: Colors.white,
+                        width: double.infinity,
+                        padding: EdgeInsets.symmetric(vertical: 12.0),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 8.0),
+                              child: DefaultTextStyle(
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 12.0,
+                                ),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text('猜你喜欢'),
+                                    GestureDetector(
+                                      child: Text(
+                                        '查看更多',
+                                        style: TextStyle(
+                                          color: Colors.orange[900],
+                                          fontSize: 14.0,
+                                        ),
+                                      ),
+                                      onTap: () {
+                                        Navigator.pushNamed(
+                                          context,
+                                          'projectList',
+                                        );
+                                      },
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                children: data.apart.map((i) {
+                                  return GestureDetector(
+                                    onTap: () {},
+                                    child: Container(
+                                      width: 260.0,
+                                      margin:
+                                          EdgeInsets.symmetric(horizontal: 8.0),
+                                      child: Column(
+                                        children: [
+                                          ImageWidget(
+                                            url: i['ppt_file_url'],
+                                            w: 260.0,
+                                            h: 150.0,
+                                            fit: BoxFit.fill,
+                                          ),
+                                          Padding(
+                                            padding: EdgeInsets.symmetric(
+                                                vertical: 5.0),
+                                            child: Row(
+                                              children: [
+                                                Text(i['detail']['title']),
+                                              ],
+                                            ),
+                                          ),
+                                          Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Text(
+                                                i['detail']['type'],
+                                                style: TextStyle(
+                                                  color: Colors.grey[400],
+                                                  fontSize: 12.0,
+                                                ),
+                                              ),
+                                              Text(
+                                                i['detail']['price'],
+                                                style: TextStyle(
+                                                  fontSize: 14.0,
+                                                  color: Colors.orange[900],
+                                                ),
+                                              ),
+                                            ],
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      // 品牌公寓
+                      Container(
+                        margin: EdgeInsets.symmetric(vertical: 9.0),
+                        color: Colors.white,
+                        width: double.infinity,
+                        padding: EdgeInsets.symmetric(vertical: 12.0),
+                        child: Column(
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 8.0),
+                              child: DefaultTextStyle(
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 12.0,
+                                ),
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text('品牌公寓'),
+                                    GestureDetector(
+                                      child: Text(
+                                        '查看更多',
+                                        style: TextStyle(
+                                          color: Colors.orange[900],
+                                          fontSize: 14.0,
+                                        ),
+                                      ),
+                                      onTap: () {
+                                        Navigator.pushNamed(
+                                          context,
+                                          'projectList',
+                                        );
+                                      },
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                            SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                children: data.flats.map((i) {
+                                  return GestureDetector(
+                                    onTap: () {
+                                      Navigator.pushNamed(
+                                        context,
+                                        'projectList',
+                                        arguments: {'search': i['text']},
+                                      );
+                                    },
+                                    child: Container(
+                                      width: 70.0,
+                                      margin:
+                                          EdgeInsets.symmetric(horizontal: 8.0),
+                                      padding:
+                                          EdgeInsets.symmetric(vertical: 3.0),
+                                      decoration: BoxDecoration(
+                                        border: Border.all(
+                                          color: Colors.grey[200],
+                                          width: 1.0,
+                                          style: BorderStyle.solid,
+                                        ),
+                                      ),
+                                      child: Column(
+                                        children: [
+                                          Container(
+                                            alignment: Alignment.center,
+                                            decoration: BoxDecoration(
+                                              border: Border.all(
+                                                color: Colors.grey[200],
+                                                width: 1.0,
+                                                style: BorderStyle.solid,
+                                              ),
+                                              borderRadius: BorderRadius.all(
+                                                Radius.circular(30.0),
+                                              ),
+                                            ),
+                                            width: 60.0,
+                                            height: 60.0,
+                                            child: ClipOval(
+                                              child: Container(
+                                                width: 50.0,
+                                                height: 50.0,
+                                                child: ImageWidget(
+                                                  url: i['icon'],
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                          Padding(
+                                            padding: EdgeInsets.symmetric(
+                                                vertical: 5.0),
+                                            child: Text(i['text']),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  );
+                                }).toList(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
