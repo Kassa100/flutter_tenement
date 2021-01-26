@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import '../widgets/BottomNavWidget.dart';
 
-class OrserListPage extends StatefulWidget {
-  OrserListPage({Key key, this.title});
+class OrderListPage extends StatefulWidget {
+  OrderListPage({Key key, this.title});
   final String title;
   @override
-  OrserListPageState createState() {
-    return OrserListPageState();
+  OrderListPageState createState() {
+    return OrderListPageState();
   }
 }
 
-class OrserListPageState extends State<OrserListPage> {
+class OrderListPageState extends State<OrderListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import './HomePage.dart';
 import './CollectListPage.dart';
-import './OrserListPage.dart';
+import './OrderListPage.dart';
 import './PersonalCenter.dart';
+import './ProjectList.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -16,9 +17,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // 路由表
       routes: {
+        'projectList': (context) => ProjectList(
+              title: '房源列表',
+              arg: ModalRoute.of(context).settings.arguments,
+            ),
         '/': (context) => HomePage(title: '首页'),
         'personalCenter': (context) => PersonalCenter(title: '我的'),
-        'orderListPage': (context) => OrserListPage(title: '预约'),
+        'orderListPage': (context) => OrderListPage(title: '预约'),
         'collectListPage': (context) => CollectListPage(title: '收藏'),
       },
       initialRoute: '/',
