@@ -4,6 +4,9 @@ import './CollectListPage.dart';
 import './OrderListPage.dart';
 import './PersonalCenter.dart';
 import './ProjectList.dart';
+import './ProjectDetail.dart';
+import './LoginPage.dart';
+import './RegisterPage.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -17,11 +20,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // 路由表
       routes: {
+        'loginPage': (context) => LoginPage(),
+        'registerPage': (context) => RegisterPage(),
         'projectList': (context) => ProjectList(
               title: '房源列表',
               arg: ModalRoute.of(context).settings.arguments,
             ),
         '/': (context) => HomePage(title: '首页'),
+        'projectDetail': (context) => ProjectDetail(title: '房源详情'),
         'personalCenter': (context) => PersonalCenter(title: '我的'),
         'orderListPage': (context) => OrderListPage(title: '预约'),
         'collectListPage': (context) => CollectListPage(title: '收藏'),

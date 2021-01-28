@@ -35,7 +35,6 @@ class _ProjectListState extends State<ProjectList> {
     'room': '不限',
     'special': [],
   };
-
   // 搜索输入框的controller
   final TextEditingController _controller = new TextEditingController();
   // 修改请求参数
@@ -54,7 +53,6 @@ class _ProjectListState extends State<ProjectList> {
       });
       return null;
     }
-    print(!widget.store.state.location.contains('深圳'));
     var _projectList = await Request(context).getProjectList(queryParameters: {
       'location': widget.store.state.location,
       'pageRow': 20, //每页条数
@@ -108,7 +106,7 @@ class _ProjectListState extends State<ProjectList> {
           title: Text(widget.title),
           centerTitle: true,
         ),
-        body:Stack(
+        body: Stack(
           children: [
             Flex(
               direction: Axis.vertical,
@@ -410,12 +408,15 @@ class _ProjectListState extends State<ProjectList> {
                                             children: _renderList[index]['detail']['label_group'].map<Widget>((i){
                                               return Container(
                                                 margin: EdgeInsets.only(right: 10.0),
-                                                child: Text(
-                                                  i,
-                                                  style: TextStyle(
-                                                    fontSize: 14.0,
-                                                    background: new Paint()..color = Colors.blue[50],
-                                                    height: 2.0,
+                                                child: Padding(
+                                                  padding: EdgeInsets.fromLTRB(2.0, 0.0, 2.0, 0.0),
+                                                  child: Text(
+                                                    i,
+                                                    style: TextStyle(
+                                                      fontSize: 10.0,
+                                                      background: new Paint()..color = Colors.blue[50],
+                                                      height: 2.0,
+                                                    ),
                                                   ),
                                                 ),
                                               );
@@ -453,7 +454,6 @@ class _ProjectListState extends State<ProjectList> {
                   ),
                   flex: 1,
                 ),
-
               ],
             ),
             StoreConnector(
