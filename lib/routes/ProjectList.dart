@@ -66,7 +66,8 @@ class _ProjectListState extends State<ProjectList> {
       count = Data.total['count'];
       _renderList.addAll(Data.list);
     });
-    print(Data);
+    // print(Data);
+    print(widget.arg);
   }
 
   //默认弹出框控制字段(tab高亮字段)
@@ -103,7 +104,7 @@ class _ProjectListState extends State<ProjectList> {
       store: widget.store,
       child: Scaffold(
         appBar: AppBar(
-          title: Text(widget.title),
+          title: Text(widget.arg['title']),
           centerTitle: true,
         ),
         body: Stack(

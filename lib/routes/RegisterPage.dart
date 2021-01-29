@@ -35,38 +35,12 @@ class _RegisterPage extends State<RegisterPage>{
       if(_data.msg == '用户名已存在'){
         Toast.show('用户名已存在',context,duration: Toast.LENGTH_LONG,gravity: Toast.CENTER);
       }else{
-        _login(context);
-        // Navigator.of(context).pop();
+        // _login(context);
+        Navigator.of(context).pop();
       }
     }
   }
-  //登录操作
-  _login(context) async {
-    if(Form.of(context).validate()){
-      FocusScope.of(context).requestFocus(blankNode);
-      Form.of(context).save();
-      //验证通过  提交数据
-      var _data = await Request(context).sendLogin(queryParameters: {
-        'userName':_uname,
-        'userpwd':_password,
-      });
-      if(_data.msg != 'ok'){
-        Toast.show(_data.msg,context,duration: Toast.LENGTH_LONG,gravity: Toast.CENTER);
-      }else{
-        //登录成功 信息保存
-        _storageUserInfo(context,_data);
-        Toast.show('登录成功',context,duration: Toast.LENGTH_LONG,gravity: Toast.CENTER);
-      }
-    }
-  }
-  //信息保存操作
-  _storageUserInfo(context,userData) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.setString('userId', userData?.data['id']);
-    Future.delayed(Duration(seconds: 1),(){
-      Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
-    });
-  }
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

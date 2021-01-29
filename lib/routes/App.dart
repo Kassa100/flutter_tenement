@@ -7,7 +7,8 @@ import './ProjectList.dart';
 import './ProjectDetail.dart';
 import './LoginPage.dart';
 import './RegisterPage.dart';
-
+import './PersonalInformation.dart';
+import './PersonalInformationChange.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -20,6 +21,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // 路由表
       routes: {
+        'personalInformationChange': (context) => PersonalInformationChange(title: '个人信息修改',arg: ModalRoute.of(context).settings.arguments,),
+        'personalInformation': (context) => PersonalInformation(title: '个人信息'),
         'loginPage': (context) => LoginPage(),
         'registerPage': (context) => RegisterPage(),
         'projectList': (context) => ProjectList(

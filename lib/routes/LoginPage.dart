@@ -42,8 +42,7 @@ class _LoginPage extends State<LoginPage>{
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.setString('userId', userData?.data['id']);
     Future.delayed(Duration(seconds: 1),(){
-      // Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
-      Navigator.of(context).pop();
+      Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
     });
   }
   @override
@@ -128,7 +127,7 @@ class _LoginPage extends State<LoginPage>{
                           child: Builder(builder: (context){
                             return RaisedButton(
                                 onPressed: (){
-                                  Navigator.of(context).pop();
+                                  Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);
                                 },
                                 child: Text('取消'),
                                 color: Colors.blue[400],

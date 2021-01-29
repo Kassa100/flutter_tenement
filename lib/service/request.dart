@@ -168,7 +168,7 @@ class Request {
   Future<User> getUser({Map<String, dynamic> queryParameters}) async {
     _options.extra.addAll({'noCache': true});
     var r = await dio.get<Map>(
-      'api/collect',
+      'api/getUser',
       options: _options,
       queryParameters: queryParameters,
     );

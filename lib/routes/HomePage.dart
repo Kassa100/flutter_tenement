@@ -224,7 +224,7 @@ class HomePageState extends State<HomePage> {
                                 Navigator.pushNamed(
                                   context,
                                   'projectList',
-                                  arguments: {i['search']: true},
+                                  arguments: {i['search']: true,'title':i['text']},
                                 );
                               },
                             );
@@ -246,7 +246,7 @@ class HomePageState extends State<HomePage> {
                                   Navigator.pushNamed(
                                     context,
                                     'projectList',
-                                    arguments: {'cur_region': i['text']},
+                                    arguments: {'cur_region': i['text'],'title':i['text']},
                                   );
                                 },
                                 child: Container(
@@ -310,6 +310,7 @@ class HomePageState extends State<HomePage> {
                                         Navigator.pushNamed(
                                           context,
                                           'projectList',
+                                          arguments: {'title':'猜你喜欢'},
                                         );
                                       },
                                     ),
@@ -406,6 +407,7 @@ class HomePageState extends State<HomePage> {
                                         Navigator.pushNamed(
                                           context,
                                           'projectList',
+                                          arguments: {'title':'品牌公寓'},
                                         );
                                       },
                                     ),
@@ -422,7 +424,7 @@ class HomePageState extends State<HomePage> {
                                       Navigator.pushNamed(
                                         context,
                                         'projectList',
-                                        arguments: {'search': i['text']},
+                                        arguments: {'search': i['text'],'title':i['text']},
                                       );
                                     },
                                     child: Container(
